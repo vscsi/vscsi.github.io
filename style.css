@@ -1,0 +1,221 @@
+/* my custom font */
+@font-face {
+    font-family: "apricity";
+    src: url("font/Apricity700.ttf");
+}
+
+/* body css */
+
+body {
+    color: #e9c46a;
+    background-color: #23425f;
+    font-family: "apricity", Verdana, sans-serif;
+}
+
+/* using html smooth scroll */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* nav bar */
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-brand {
+    color: #a64942 !important;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+}
+
+.customNav {
+    background-color: #7d1128;
+}
+
+/* hr */
+
+hr {
+    border-top: double #e76f51;
+    width: 100px;
+
+}
+
+/* header */
+
+.header {
+    background-image: url(/images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 32vh 2vw;
+}
+
+.header {
+    font-family: 'Candara';
+    color: #e9c46a;
+}
+
+.header p {
+    font-size: x-large;
+}
+
+.header a {
+    font-size: large;
+}
+
+.header p span {
+    color: #e9c46a;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.display-4 {
+    font-weight: 400;
+}
+
+/* about me */
+
+.about {
+    text-align: center;
+    padding: 5vh 2vw 10vh 2vw;
+}
+
+.about h2 {
+    padding: 5vh 2vw;
+}
+
+.about p {
+    padding: 3vh 3vw;
+}
+
+.about hr {
+    border-top: double #e9c46a;
+}
+
+/* hobbies */
+
+#hobbies {
+    text-align: center;
+    background-color: #fff;
+    color: #23425f;
+    padding: 10vh 2vw;
+}
+
+.hobbiebox {
+    padding-bottom: 5vh;
+}
+
+.hobbyimage {
+    width: 320px;
+    height: 320px;
+
+}
+
+
+/* gallery */
+
+.gallery {
+    display: flex;
+    width: 100%;
+    padding: 1% 0 1% 1%;
+    box-sizing: border-box;
+    height: 80vh;
+    margin-top: 8vh;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+    line-height: 0;
+}
+
+.box>img {
+    width: 200%;
+    height: calc(100% - 8vh);
+    object-fit: cover;
+    transition: .5s;
+}
+
+.box>span {
+    font-size: 2vh;
+    display: block;
+    text-align: center;
+    height: 5vh;
+    line-height: 4;
+}
+
+.box:hover {
+    flex: 1 1 65%;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 100%;
+}
+
+/*contact me*/
+
+.contact {
+
+    background-color: #7d1128;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.contact a {
+    padding: 1rem;
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    color: #e9c46a;
+    overflow: hidden;
+    background: linear-gradient(to right, #23425f, #23425f 50%, #e9c46a 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+}
+
+
+
+/* link hover */
+a {
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    color: #e9c46a;
+    overflow: hidden;
+    background: linear-gradient(to right, #ff7844, #ff7844 50%, #e9c46a 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+a:hover {
+    background-position: 0 100%;
+}
