@@ -12,7 +12,7 @@
 
 - Used a sticky navbar for a more convenient navigation through out the whole page. 
 
--Written javascript to make the navbar change background colour when it is scrolled down more than 200 px.
+- Written javascript to make the navbar change background colour when it is scrolled down more than 200 px.
 
 - Customed the anchor link hover effect in the css for it to have a colour change effect. 
 
@@ -55,6 +55,4 @@
 ### Footer
 
 - A simple footer section with text aligned to center.
-
-### Difficulties 
 
