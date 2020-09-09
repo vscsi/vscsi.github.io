@@ -95,6 +95,7 @@ hr {
 
 .about p {
     padding: 3vh 3vw;
+    text-align: justify;
 }
 
 .about hr {
